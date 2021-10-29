@@ -192,18 +192,56 @@
                                     <action selector="logoutBtn:" destination="8eX-Pq-uf6" eventType="touchUpInside" id="khy-W1-aiy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아이디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kto-wj-12s">
+                                <rect key="frame" x="172.66666666666666" y="324" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAV-VG-hIa">
+                                <rect key="frame" x="180" y="222" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="폰 번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOd-Md-cSh">
+                                <rect key="frame" x="170.66666666666666" y="375" width="48.666666666666657" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이메일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYd-eQ-2z3">
+                                <rect key="frame" x="172.66666666666666" y="273" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0PB-s3-2yD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0PB-s3-2yD" firstAttribute="trailing" secondItem="UH1-YG-f69" secondAttribute="trailing" constant="40" id="3WU-4o-W9p"/>
+                            <constraint firstItem="QOd-Md-cSh" firstAttribute="top" secondItem="Kto-wj-12s" secondAttribute="bottom" constant="30" id="DwB-aa-YwT"/>
+                            <constraint firstItem="Kto-wj-12s" firstAttribute="top" secondItem="iYd-eQ-2z3" secondAttribute="bottom" constant="30" id="GM9-FQ-6CB"/>
+                            <constraint firstItem="iYd-eQ-2z3" firstAttribute="centerX" secondItem="0PB-s3-2yD" secondAttribute="centerX" id="PoL-Vy-t2T"/>
                             <constraint firstItem="UH1-YG-f69" firstAttribute="leading" secondItem="0PB-s3-2yD" secondAttribute="leading" constant="40" id="c64-pn-FKR"/>
+                            <constraint firstItem="CAV-VG-hIa" firstAttribute="top" secondItem="5yP-T4-3DR" secondAttribute="bottom" constant="60" id="dtK-rt-cjG"/>
                             <constraint firstItem="UH1-YG-f69" firstAttribute="centerX" secondItem="0PB-s3-2yD" secondAttribute="centerX" id="fhc-vP-qlQ"/>
+                            <constraint firstItem="CAV-VG-hIa" firstAttribute="centerX" secondItem="0PB-s3-2yD" secondAttribute="centerX" id="k1P-0c-RFg"/>
                             <constraint firstItem="5yP-T4-3DR" firstAttribute="centerX" secondItem="0PB-s3-2yD" secondAttribute="centerX" id="kTr-UR-5ez"/>
+                            <constraint firstItem="iYd-eQ-2z3" firstAttribute="top" secondItem="CAV-VG-hIa" secondAttribute="bottom" constant="30" id="krb-t7-K6v"/>
+                            <constraint firstItem="Kto-wj-12s" firstAttribute="centerX" secondItem="0PB-s3-2yD" secondAttribute="centerX" id="prj-2u-xf4"/>
+                            <constraint firstItem="QOd-Md-cSh" firstAttribute="centerX" secondItem="0PB-s3-2yD" secondAttribute="centerX" id="siF-B3-vAb"/>
                             <constraint firstItem="5yP-T4-3DR" firstAttribute="top" secondItem="0PB-s3-2yD" secondAttribute="top" constant="70" id="xhP-vb-Uiw"/>
                             <constraint firstItem="0PB-s3-2yD" firstAttribute="bottom" secondItem="UH1-YG-f69" secondAttribute="bottom" constant="50" id="zN8-GQ-R3b"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="iYd-eQ-2z3" id="sqh-aV-Pv9"/>
+                        <outlet property="id" destination="Kto-wj-12s" id="kfd-Pe-tw6"/>
+                        <outlet property="mobile" destination="QOd-Md-cSh" id="p3H-ph-fKH"/>
+                        <outlet property="nameLabel" destination="CAV-VG-hIa" id="efd-QV-fjQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pWs-xR-yRn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

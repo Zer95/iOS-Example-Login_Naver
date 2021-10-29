@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Login_Naver_Example/Pods-Login_Naver_Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework

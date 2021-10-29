@@ -8,5 +8,5 @@ target 'Login_Naver_Example' do
   # Pods for Login_Naver_Example
 
   pod 'naveridlogin-sdk-ios'
-
+  pod 'Alamofire', '~> 5.4'
 end
