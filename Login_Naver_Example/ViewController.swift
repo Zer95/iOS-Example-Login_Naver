@@ -43,7 +43,5 @@ class ViewController: UIViewController, NaverThirdPartyLoginConnectionDelegate {
         loginInstance?.requestThirdPartyLogin()
     }
     
-  
-
-    
 }
+
