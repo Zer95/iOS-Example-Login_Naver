@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		86734531B895A4421C13F849 /* Pods_Login_Naver_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC21FC37BF42C61168BF992 /* Pods_Login_Naver_Example.framework */; };
+		D227EFFA272BA2790041D7F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227EFF9272BA2790041D7F8 /* HomeViewController.swift */; };
 		D2589C5E272ABA6A00E85637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589C5D272ABA6A00E85637 /* AppDelegate.swift */; };
 		D2589C60272ABA6A00E85637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589C5F272ABA6A00E85637 /* SceneDelegate.swift */; };
 		D2589C62272ABA6A00E85637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2589C61272ABA6A00E85637 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		25455A298781BF642E0123B9 /* Pods-Login_Naver_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_Naver_Example.debug.xcconfig"; path = "Target Support Files/Pods-Login_Naver_Example/Pods-Login_Naver_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AAC21FC37BF42C61168BF992 /* Pods_Login_Naver_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Naver_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D227EFF9272BA2790041D7F8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D2589C5A272ABA6A00E85637 /* Login_Naver_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_Naver_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2589C5D272ABA6A00E85637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2589C5F272ABA6A00E85637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				25455A298781BF642E0123B9 /* Pods-Login_Naver_Example.debug.xcconfig */,
 				EFEBEAC0E74787192E6323D5 /* Pods-Login_Naver_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				D2589C5D272ABA6A00E85637 /* AppDelegate.swift */,
 				D2589C5F272ABA6A00E85637 /* SceneDelegate.swift */,
 				D2589C61272ABA6A00E85637 /* ViewController.swift */,
+				D227EFF9272BA2790041D7F8 /* HomeViewController.swift */,
 				D2589C63272ABA6A00E85637 /* Main.storyboard */,
 				D2589C66272ABA6B00E85637 /* Assets.xcassets */,
 				D2589C68272ABA6B00E85637 /* LaunchScreen.storyboard */,
@@ -210,6 +212,7 @@
 				D2589C62272ABA6A00E85637 /* ViewController.swift in Sources */,
 				D2589C5E272ABA6A00E85637 /* AppDelegate.swift in Sources */,
 				D2589C60272ABA6A00E85637 /* SceneDelegate.swift in Sources */,
+				D227EFFA272BA2790041D7F8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
